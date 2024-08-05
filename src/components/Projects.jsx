@@ -1,0 +1,24 @@
+import React from 'react'
+import landingPage from './../../public/landing-page.jpeg'
+
+const Projects = () => {
+  return (
+    <section id='projects' className='projects w-full min-h-[80vh] bg-[#f8f9fd] flex items-center justify-center pt-6 pb-8'>
+        <div className="w-[80%] flex flex-col items-center gap-3">
+          <h2 className="text-[#0285ff] text-3xl font-medium">Projects</h2>
+            <h1 className="text-3xl font-light md:text-left text-center">Some Of My Recent Works</h1>
+
+            <div className="main-content w-full grid md:grid-cols-3 gap-4 md:pt-6">
+            <a href="https://github.com/Suman29052003/Voting-app.git" className=""><div className="w-full h-[20rem] landing-page bg-contain bg-no-repeat bg-center bg-[url('https://i.pinimg.com/564x/5d/b1/67/5db167ca26504980f37fe8dee795c3d7.jpg')] hover:scale-[1.05] duration-300 flex justify-end items-end cursor-pointer overflow-hidden ">
+                <h1 className="font-semibold text-xl text-[#fff] w-full bg-[#0285ff] text-left p-4 flex  items-center justify-between"> <span className="">Full Stack Voting System</span> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-40q-33 0-56.5-23.5T160-120v-440q0-33 23.5-56.5T240-640h120v80H240v440h480v-440H600v-80h120q33 0 56.5 23.5T800-560v440q0 33-23.5 56.5T720-40H240Zm200-280v-447l-64 64-56-57 160-160 160 160-56 57-64-64v447h-80Z"/></svg></h1>
+              </div></a>
+
+        
+
+            </div>
+        </div>
+    </section>
+  )
+}
+
+export default Projects
