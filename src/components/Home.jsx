@@ -13,7 +13,7 @@ const Home = () => {
           <p className="text-sm font-light leading-6 md:text-lg">Hi, I' m Suman a freelance web designer from India. i help brands turns their ideas into high Quality products.</p>
 
           <div className="download-cv bg-[#285fff] w-fit p-2 my-2 md:p-4 rounded-2xl text-white font-semibold">
-        <a href="/public/Resume - Suman Saha.pdf" download="Suman_CV.pdf">
+        <a href="/public/Resume - Suman Saha.pdff" download="Suman_CV.pdf">
           <button>Download CV</button>
         </a>
       </div>
